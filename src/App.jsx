@@ -15,7 +15,7 @@ async function translate(text, srcLangCode, targetLangCode) {
       'content-type': 'application/x-www-form-urlencoded',
       'Accept-Encoding': 'application/gzip',
       'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
-      'X-RapidAPI-Key': '5a2c288efdmshf6aab829d0babd4p120e85jsn15bcd66f29ee'
+      'X-RapidAPI-Key': 'API_KEY_HERE'
     },
     data: encodedParams
   };
